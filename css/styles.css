@@ -51,7 +51,7 @@ nav ul li a {
 }
 .image-container {
     width: 50%;
-    height: 100px; /* Sesuaikan ukuran */
+    height: 50px; /* Sesuaikan ukuran */
     border-radius: 10px;
     overflow: hidden; /* Agar gambar tidak keluar dari batas */
     display: flex;
