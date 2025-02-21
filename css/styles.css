@@ -89,3 +89,23 @@ ul li {
     margin: 10px 0;
     font-size: 16px;
 }
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile i {
+    font-size: 40px; /* Ukuran ikon */
+    color: #ccc; /* Warna ikon */
+}
+
+.profile-info {
+    font-size: 14px;
+}
+
+.italic-text {
+    font-style: italic;
+    color: #888;
+}
