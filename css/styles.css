@@ -49,6 +49,26 @@ nav ul li a {
 .left, .right {
     flex: 1;
 }
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile i {
+    font-size: 40px; /* Ukuran ikon */
+    color: #ccc; /* Warna ikon */
+}
+
+.profile-info {
+    font-size: 14px;
+}
+
+.italic-text {
+    font-style: italic;
+    color: #888;
+}
 .image-placeholder {
     width: 50%;
     height: 500px;
