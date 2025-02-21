@@ -49,10 +49,21 @@ nav ul li a {
 .left, .right {
     flex: 1;
 }
-.image-placeholder {
+.image-container {
     width: 100%;
-    height: 200px;
-    background: #ddd;
+    height: 200px; /* Sesuaikan ukuran */
+    border-radius: 10px;
+    overflow: hidden; /* Agar gambar tidak keluar dari batas */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0; /* Warna latar belakang jika gambar belum muncul */
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Menyesuaikan gambar agar pas di dalam kotak */
     border-radius: 10px;
 }
 .contact-box {
