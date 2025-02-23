@@ -67,6 +67,9 @@ nav ul li a {
     display: none; /* Semua slide disembunyikan kecuali yang aktif */
 }
 
+.slide:first-child {
+    display: block; /* Pastikan slide pertama tampil saat halaman dimuat */
+}
 .slide img {
     width: 100%;
     height: auto;
@@ -76,6 +79,24 @@ nav ul li a {
 /* Efek fade untuk transisi */
 .fade {
     animation: fadeEffect 1.5s ease-in-out;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Tengahkan secara horizontal */
+    text-align: center; /* Tengahkan teks */
+    max-width: 500px; /* Sesuaikan lebar */
+    margin: auto; /* Agar tetap di tengah */
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text {
+    margin-top: 10px; /* Beri jarak antara gambar dan teks */
 }
 
 @keyframes fadeEffect {

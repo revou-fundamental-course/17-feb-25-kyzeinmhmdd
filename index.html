@@ -34,24 +34,48 @@
     <section class="content">
 
         <div class="slideshow-container">
-            <div class="slide fade">
+            <div class="slide">
                 <img src="assets\Untitled.png" alt="Gambar 1">
             </div>
-            <div class="slide fade">
+            <div class="slide">
                 <img src="assets\Untitled2.png" alt="Gambar 2">
             </div>
-            <div class="slide fade">
+            <div class="slide">
                 <img src="assets\Untitled3.png" alt="Gambar 3">
             </div>
         </div>
 
-        <div class="profile">
-            <div class="profile-info">
-                <blockquote>"Liburan jadi menyenangkan bersama Travel Agentku."</blockquote>
-                <strong>Refita</strong><br>
-                <span class="italic-text">CEO of Haqueky, 25</span>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                let slideIndex = 0;
+            
+                function showSlides() {
+                    let slides = document.querySelectorAll(".slide");
+            
+                    slides.forEach(slide => {
+                        slide.style.display = "none";
+                    });
+            
+                    slideIndex++;
+                    if (slideIndex > slides.length) {
+                        slideIndex = 1;
+                    }
+            
+                    slides[slideIndex - 1].style.display = "block";
+                    setTimeout(showSlides, 3000);
+                }
+            
+                showSlides();
+            });
+            </script>
+
+        <div class="image-container">
+            <img src="image.jpg" alt="Gambar">
+            <div class="text">
+                 <p><i>"Liburan jadi menyenangkan bersama Travel Agentku."</i></p>
+                    <strong>Refita</strong>
+                <p>CEO of Haqueky, 25</p>
             </div>
-        </div>
 
         <div class="right">
             <div class="contact-box">
