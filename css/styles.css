@@ -69,12 +69,6 @@ nav ul li a {
     font-style: italic;
     color: #888;
 }
-.image-placeholder {
-    width: 50%;
-    height: 500px;
-    background: #ddd;
-    border-radius: 10px;
-}
 .contact-box {
     background: #fff;
     padding: 20px;
