@@ -55,6 +55,33 @@ nav ul li a {
     background: #ddd;
     border-radius: 10px;
 }
+
+.slideshow-container {
+    position: relative;
+    max-width: 600px; /* Sesuaikan ukuran */
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide {
+    display: none; /* Semua slide disembunyikan kecuali yang aktif */
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Agar gambar lebih smooth */
+}
+
+/* Efek fade untuk transisi */
+.fade {
+    animation: fadeEffect 1.5s ease-in-out;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0.4;}
+    to {opacity: 1;}
+}
 .contact-box {
     background: #fff;
     padding: 20px;
