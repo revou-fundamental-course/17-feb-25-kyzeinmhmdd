@@ -91,6 +91,6 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
-        alert("Form submitted successfully!");
+    alert("Form submitted successfully!");
         this.reset();
     });
