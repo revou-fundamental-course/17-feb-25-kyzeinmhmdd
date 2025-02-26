@@ -3,35 +3,42 @@
 document.addEventListener("DOMContentLoaded", function () {
     const slides = [
         {
-            image: "assets\bali.png",
+            image: "assets/seoul.png",
+            text: '"The street food is amazing! I couldnt get enough of tteokbokki, Korean BBQ, and hotteok from the markets"',
+            name: "Keira Adeline Kim",
+            gender: "Female",
+            age: "25 years"
+        },
+        {
+            image: "assets/bali.png",
             text: '"Bali has beautiful beaches and a unique culture. An unforgettable vacation!"',
             name: "Luna Rea Soleil",
             gender: "Female",
             age: "28 years"
         },
         {
-            image: "assets\labuan_bajo.jpg",
+            image: "assets/labuan_bajo.jpg",
             text: '"Labuan Bajo is the gateway to paradise! Stunning islands, crystal-clear waters, and incredible sunsets every evening."',
             name: "Favian Luke",
             gender: "Male",
             age: "30 years"
         },
         {
-            image: "assets\maldives.png",
+            image: "assets/maldives.png",
             text: '"Snorkeling in the Maldives is like swimming in an aquarium! The coral reefs were full of colorful fish, and I even saw a sea turtle!"',
             name: "Oscar Sandyakala",
             gender: "Male",
             age: "33 years"
         },
         {
-            image: "assets\thailand.png",
+            image: "assets/thailand.png",
             text: '"The street food is incredible! Pad Thai, mango sticky rice, and Thai iced tea—so cheap and delicious!"',
             name: "Christie Sarah",
             gender: "Female",
             age: "29 years"
         },
         {
-            image: "assets\japan.png",
+            image: "assets/japan.png",
             text: '"Cherry blossom season was like stepping into a dream. Seeing sakura in Tokyo, Kyoto, and Osaka was magical!"',
             name: "Jingga Anastasya Halim",
             gender: "Female",
