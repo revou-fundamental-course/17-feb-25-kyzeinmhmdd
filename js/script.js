@@ -25,21 +25,21 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
             image: "assets\maldives.png",
-            text: '"S very clean and full of interesting attractions. Garden by the Bay is amazing!"',
+            text: '"Snorkeling in the Maldives is like swimming in an aquarium! The coral reefs were full of colorful fish, and I even saw a sea turtle!"',
             name: "Oscar Sandyakala",
             gender: "Male",
             age: "33 years"
         },
         {
             image: "assets\thailand.png",
-            text: '"Thailand has great food and beautiful temples. Worth a visit!"',
+            text: '"The street food is incredible! Pad Thai, mango sticky rice, and Thai iced tea—so cheap and delicious!"',
             name: "Christie Sarah",
             gender: "Female",
             age: "29 years"
         },
         {
             image: "assets\japan.png",
-            text: '"Vietnam has beautiful nature, especially Ha Long Bay. Great trip!"',
+            text: '"Cherry blossom season was like stepping into a dream. Seeing sakura in Tokyo, Kyoto, and Osaka was magical!"',
             name: "Jingga Anastasya Halim",
             gender: "Female",
             age: "31 years"
