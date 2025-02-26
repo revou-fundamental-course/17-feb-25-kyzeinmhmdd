@@ -3,13 +3,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const slides = [
         {
-            image: "assets\seoul.png",
-            text: '"The street food is amazing! I couldnt get enough of tteokbokki, Korean BBQ, and hotteok from the markets"',
-            name: "Keira Adeline Kim",
-            gender: "Female",
-            age: "25 years"
-        },
-        {
             image: "assets\bali.png",
             text: '"Bali has beautiful beaches and a unique culture. An unforgettable vacation!"',
             name: "Luna Rea Soleil",
