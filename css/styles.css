@@ -363,9 +363,9 @@ footer {
 @media only screen and (max-width: 480px) {
     /* HEADER */
     .main-header {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: normal;
         padding: 15px;
     }
 
