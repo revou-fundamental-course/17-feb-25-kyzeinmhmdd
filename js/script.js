@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
             age: "28 years"
         },
         {
-            image: "assets\labuan bajo.jpg",
+            image: "assets\labuan-bajo.jpg",
             text: '"Labuan Bajo is the gateway to paradise! Stunning islands, crystal-clear waters, and incredible sunsets every evening."',
             name: "Favian Luke",
             gender: "Male",
