@@ -171,7 +171,7 @@ nav a {
 /* Styling dropdown (select) */
 #contact-form select {
     appearance: none;
-    color: gray;
+    background-color: white;
     cursor: pointer;
 }
 
@@ -363,9 +363,9 @@ footer {
 @media only screen and (max-width: 480px) {
     /* HEADER */
     .main-header {
-        flex-direction: column;
-        justify-content: center;
-        align-items: normal;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
         padding: 15px;
     }
 
