@@ -360,8 +360,12 @@ footer {
 /* RESPONSIVE DESIGN */
 
 @media (max-width: 425px) {
-    .main-header{
-        flex-direction: column;
+    /* HEADER */
+    .main-header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
     }
     .main-content {
         flex-direction: column;
