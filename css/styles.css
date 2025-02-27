@@ -359,7 +359,7 @@ footer {
 
 /* RESPONSIVE DESIGN */
 
-@media (max-width: 425px) {
+@media only screen and (max-width: 480px) {
     /* HEADER */
     .main-header {
         flex-direction: row;
@@ -367,6 +367,7 @@ footer {
         align-items: center;
         padding: 15px;
     }
+    
     .main-content {
         flex-direction: column;
     }
